@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" >
+    <link href="assets/css/main.css" rel="stylesheet" >
+    <link href="assets/fonts/Gotham.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/fontawesome-free/css/all.min.css"/>
+
+    <title>Document</title>
+</head>
+<body>
+    <section class="head">
+        <!-- <div class="container"> -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="logo">
+                        <div class="bmc_img">
+                            <a href="#">
+                                <img src="assets/images/nepal_government_logo_1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="bmc_txt">
+                            <p>Biratnagar Metropolitian City</p>
+                            <h4><strong>D A T A &nbsp; P O R T A L</strong></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- </div> -->
+    </section>
+    <section>
+        <div class="graph-b">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4><strong>Geography</strong></h4>
+                </div>
+                <div class="col-md-8">
+                    <div class="input-group rounded">
+                        <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                        <span class="input-group-text border-0" id="search-addon">
+                          <i class="fas fa-search"></i>
+                        </span>
+                    </div>
+                    <!-- <button type="button" class="btn btn-primary">Search Category A</button>
+                    &nbsp;
+                    <button type="button" class="btn btn-primary">Search Category B</button>
+                    &nbsp;
+                    <button type="button" class="btn btn-primary">Search Category C</button> -->
+                </div>
+            </div>
+            <div class="wrapper"> 
+                <div class="shadow p-3 mb-5 bg-white rounded">    
+                    <div id="mySidebar" class="sidebar">
+                        <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+                        <ul>
+                            <li>
+                                <a href="#" class="active">
+                                    <span class="icon"><i class="fas fa-home"></i></span>
+                                    <span class="item">Home</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon"><i class="fas fa-desktop"></i></span>
+                                    <span class="item">My Dashboard</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon"><i class="fas fa-user-friends"></i></span>
+                                    <span class="item">People</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon"><i class="fas fa-tachometer-alt"></i></span>
+                                    <span class="item">Perfomance</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon"><i class="fas fa-database"></i></span>
+                                    <span class="item">Development</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon"><i class="fas fa-chart-line"></i></span>
+                                    <span class="item">Reports</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon"><i class="fas fa-user-shield"></i></span>
+                                    <span class="item">Admin</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon"><i class="fas fa-cog"></i></span>
+                                    <span class="item">Settings</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon"><i class="fas fa-cog"></i></span>
+                                    <span class="item">Settings</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                  
+                    <div id="main">
+                        <button class="openbtn" onclick="opencloseNav()">&#9776;</button>
+                        <div class = "table-responsive-md">
+                            <table id="myTable" class="table">
+                                <thead>
+                                    <tr>
+                                        <th style="text-align: center;">date</th>
+                                        <th>file name</th>
+                                        <th>age</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="testBody">
+                                    <!-- Populating data by using javascript -->
+                                    
+                                    <!-- <tr class = "success">
+                                        <td>2022-12-15</td>
+                                        <td>Andy</td>
+                                        <td>40</td>
+                                    </tr> -->
+
+                                </tbody>
+                            </table>    
+                        </div>
+                    </div>
+                </div>
+             </div> 
+        </div>
+    </section>
+</body>
+<script>
+    const items1 = [
+    { date: "10/18/2018", name: "jane doe" , age: "25" },
+    { date: "10/17/2019", name: "nicolas doe" , age: "15" },
+    { date: "10/18/2019", name: "scarlet doe" , age: "25" },
+    { date: "10/18/2019", name: "madam curie" , age: "26" },
+    { date: "10/18/2019", name: "marie curie" , age: "30" },
+
+  ];
+  const items2 = [
+    { date: "10/17/2019", name: "jack doe" , age: "40" },
+    { date: "10/18/2019", name: "joey doe" , age: "50" },
+    { date: "10/17/2019", name: "suzy doe" , age: "30" },
+    { date: "10/18/2019", name: "smitha doe" , age: "35" },
+    { date: "10/18/2019", name: "brendon doe" , age: "60" },
+    { date: "10/18/2019", name: "lily doe" , age: "37" },
+
+  ];
+  function loadTableData(items) {
+    const table = document.getElementById("testBody");
+    items.forEach( item => {
+      let row = table.insertRow();   
+      let date = row.insertCell(0);
+      date.innerHTML = item.date;
+      let name = row.insertCell(1);
+      name.innerHTML = item.name;
+      let age = row.insertCell(2);
+      age.innerHTML = item.age;
+    });
+  }
+    loadTableData(items1);
+    loadTableData(items2);
+    loadTableData([]);
+
+    var p = 0;
+    function opencloseNav() {
+        if(p == 0){
+            p = 1; 
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }else{
+            p = 0;
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft= "0";
+        }
+      
+    }
+    
+
+</script>
+</html>
