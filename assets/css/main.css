@@ -25,6 +25,7 @@ section{
     width: 879px;
     height: 368px;
     position: relative;
+    margin-left: auto;
 }
 .circle-menu-box {
     position: absolute;
