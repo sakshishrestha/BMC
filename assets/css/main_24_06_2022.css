@@ -5,15 +5,12 @@ body {
     position: relative;
     font-family: Gotham;
 }
-.head{
-    /* margin-left: 20px; */
-    background-color: #ecf0f1;
-    padding-bottom: 20px;
+section{
+    margin-left: 20px;
+    /* background-color:  #f7f9f9 ; */
 }
-
 .logo{
     padding-top: 20px;
-    left: 40px;
 }
 .menus{
     position: relative;
@@ -81,9 +78,6 @@ nav ul{
 nav ul li{
     display: inline-block;
 }
-nav ul li img{
-    width: 50%;
-}
 
 .circle-menu-box a.menu-item {
     border-radius: 100%;
@@ -137,25 +131,22 @@ a.menu-item.menu-item-arrow-two {position: absolute;top: 249px;right: -43px;}
 
 
 
-a.menu-item.menu-item-six h5{
+a.menu-item.menu-item-six h3{
     color: #fff !important;
-    font-weight: 400;
-    font-size: 1.5rem;
+    font-weight: 650;
+    font-size: 2rem;
     clear: both;
     display: flex;
     justify-content: center;
     white-space: nowrap;
-    text-decoration: none!important;
 }
 
 
 .bmc_img{
     float: left;
-    margin-left: 60px;
 }
 .bmc_txt{
     margin-left: 10px;
-    font-size: 19px;
 }
 .bmc_txt p{
     float: left;
@@ -168,40 +159,12 @@ a.menu-item.menu-item-six h5{
     margin-left: 10px;
     color: #5C4D7D !important;
     font-weight: bolder;
-    font-size: 1.50rem;
-}
-.hrcg{
-    margin-top: 30px;
-}
-.hrcg .col-md-3 img{
-    width: 40px;
-    margin: 15px;
-    text-align: center;
-}
-
-
-.number{
-    color: #B7094C;
-    font-weight: 600;
-    font-size: 3em;
+    font-size: 1.35rem;
 }
 .house{
     position: absolute;
-    margin-top: 100px;
-    left: 84px;
-    top: 40px;
+    margin-top: 90px;
 }
-.house h2{
-    color: #892B64;
-}
-.house p{
-    color: #000000;
-    font-size: 1rem;
-}
-.hns{
-    /* margin-top: -40px; */
-}
-
 .th{
     float: left;
     color: #5C4D7D;
@@ -530,174 +493,4 @@ button:hover {
     .hns {
     margin-top: 0 !important;
     }
-}
-
-.site-footer
-{
-  /* background-color: #808B96; */
-  margin-top: 30px;
-  background-color:#ecf0f1;
-  padding:45px 0 20px;
-  font-size:15px;
-  line-height:24px;
-  color: #B7094C;
-}
-.site-footer hr
-{
-  border-top-color:#bbb;
-  opacity:0.5
-}
-.site-footer hr.small
-{
-  margin:20px 0
-}
-.site-footer h6
-{
-  color:#B7094C;
-  font-size:16px;
-  text-transform:uppercase;
-  margin-top:5px;
-  letter-spacing:2px
-}
-.site-footer h5{
-    color: #5C4D7D;
-}
-.site-footer a
-{
-    color: #5C4D7D !important;
-    text-decoration: none;
-}
-.site-footer a:hover
-{
-  color:#3366cc;
-  text-decoration:none;
-}
-.footer-links
-{
-  padding-left:0;
-  list-style:none
-}
-.footer-links li
-{
-  display:block
-}
-.footer-links a
-{
-  color:#737373
-}
-.footer-links a:active,.footer-links a:focus,.footer-links a:hover
-{
-  color:#3366cc;
-  text-decoration:none;
-}
-.footer-links.inline li
-{
-  display:inline-block
-}
-.site-footer .social-icons
-{
-  text-align:right
-}
-.site-footer .social-icons a
-{
-  width:40px;
-  height:40px;
-  line-height:40px;
-  margin-left:6px;
-  margin-right:0;
-  border-radius:100%;
-  background-color:#33353d
-}
-.copyright-text
-{
-  margin:0
-}
-@media (max-width:991px)
-{
-  .site-footer [class^=col-]
-  {
-    margin-bottom:30px
-  }
-}
-@media (max-width:767px)
-{
-  .site-footer
-  {
-    padding-bottom:0
-  }
-  .site-footer .copyright-text,.site-footer .social-icons
-  {
-    text-align:center
-  }
-}
-.social-icons
-{
-  padding-left:0;
-  margin-bottom:0;
-  list-style:none
-}
-.social-icons li
-{
-  display:inline-block;
-  margin-bottom:4px
-}
-.social-icons li.title
-{
-  margin-right:15px;
-  text-transform:uppercase;
-  color:#96a2b2;
-  font-weight:700;
-  font-size:13px
-}
-.social-icons a{
-  background-color:#eceeef;
-  color:#818a91;
-  font-size:16px;
-  display:inline-block;
-  line-height:44px;
-  width:44px;
-  height:44px;
-  text-align:center;
-  margin-right:8px;
-  border-radius:100%;
-  -webkit-transition:all .2s linear;
-  -o-transition:all .2s linear;
-  transition:all .2s linear
-}
-.social-icons a:active,.social-icons a:focus,.social-icons a:hover
-{
-  color:#fff;
-  background-color:#29aafe
-}
-.social-icons.size-sm a
-{
-  line-height:34px;
-  height:34px;
-  width:34px;
-  font-size:14px
-}
-.social-icons a.facebook:hover
-{
-  background-color:#3b5998
-}
-.social-icons a.twitter:hover
-{
-  background-color:#00aced
-}
-.social-icons a.linkedin:hover
-{
-  background-color:#007bb6
-}
-.social-icons a.dribbble:hover
-{
-  background-color:#ea4c89
-}
-@media (max-width:767px)
-{
-  .social-icons li.title
-  {
-    display:block;
-    margin-right:0;
-    font-weight:600
-  }
 }

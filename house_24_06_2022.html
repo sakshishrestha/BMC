@@ -28,9 +28,17 @@
                     </div>
                 </div>
                 <div class="house">
-                    <h2><strong>House Number System</strong></h2>
-                    <p>Explore, Find and Add Houses Numbers based on Google Plus</br> Codes or Local Ward and Block Based Category</p>
-                </div>
+                    <div class="th">
+                        <h5><strong>Total Houses</strong></h5>
+                        <h5><strong>Residential</strong></h5>
+                        <h5><strong>Commercial</strong></h5>
+                        <h5><strong> Government</strong></h5>
+                    </div>
+                    <div class="num">
+                        <h5><strong>60000</strong></h5>
+                        <h5><strong>40000</strong></h5>
+                    </div>
+                </div> 
             </div>
             <div class="col-md-8">
                 <div class="shape">
@@ -79,7 +87,7 @@
                                 <li>
                                     <a href="#" class="menu-item menu-item-six">
                                         <img src="assets/images/home.png" alt="">
-                                        <h5>House Number</h5>
+                                        <h3>House Number</h3>
                                     </a>
                                 </li>
                             </ul>
@@ -136,186 +144,32 @@
         </div> -->
 
     </section>
-    <section class="hrcg">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="assets/images/home_logo.png" alt="">
-                    <h5><strong>Total Houses</strong></h5>
-                    <span class="number" data-val="600">000</span>
-                </div>
-                <div class="col-md-3">
-                    <img src="assets/images/agent.png" alt="">
-                    <h5><strong>Residential</strong></h5>
-                    <p><span class="number" data-val="500">000</span></p>
-                </div>
-                <div class="col-md-3">
-                    <img src="assets/images/skyline.png" alt="">
-                    <h5><strong>Commercial</strong></h5>
-                    <span class="number" data-val="400">000</span>
-
-                </div>
-                <div class="col-md-3">
-                    <img src="assets/images/government.png" alt="">
-                    <h5><strong>Government</strong></h5>
-                    <span class="number" data-val="200">000</span>
-
-                </div>
-            </div>
-            
-        </div> 
+    <section>
+        <div class="hns">
+            <h2><strong>House Number System</strong></h2>
+            <p>Explore, Find and Add Houses Numbers based on Google Plus Codes or Local Ward and Block Based Category</p>
+        </div>
     </section>
-
     <section>
         <div class="b_c">
-            
-                <div class="row">
-                    <div class="col-md-6">
-                        <div id="curve_chart" style="width: 900px; height: 500px"></div>
-                    </div>
-                    <div class="col-md-6">
-                        <div id="piechart" style="width: 900px; height: 500px;"></div>          
-                    </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <a class="IM_1">
+                        <img src="assets/images/interactive_maps_1.png" alt="">
+                        <!-- <button type="button" class="btn btn-primary">MAP MODE</button> -->
+                    </a>
                 </div>
-                
-                <div id="regions_div" style="width: 1360px; height: 700px;"></div>
+                <div class="col-md-6">
+                    <a class="G_1">
+                        <img src="assets/images/graphs_1.png" alt="">
+                        <!-- <button type="button" class="btn btn-primary">GRAPH MODE</button> -->
+                    </a>
+                </div>
+            </div>
         </div> 
 
     </section>
 </body>
-  <!-- Site footer -->
-  <footer class="site-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-6">
-          <h6>Biratnagar Mertropolian City</h6>
-          <h5>Data Portal</h5>
-            <a href="#">
-                <img src="assets/images/nepal_government_logo_1.png" alt="">
-            </a>
-          <p class="text-justify"> </p>
-        </div>
-
-        <div class="col-xs-6 col-md-3">
-          <h6>Menus</h6>
-          <ul class="footer-links">
-            <li><a href="#">House Number</a></li>
-            <li><a href="#">Residential</a></li>
-            <li><a href="#">Commercial</a></li>
-            <li><a href="#">Government</a></li>
-          </ul>
-        </div>
-
-        <div class="col-xs-6 col-md-3">
-          <h6>Categories</h6>
-          <ul class="footer-links">
-            <li><a href="#">House Number</a></li>
-            <li><a href="#">Residential</a></li>
-            <li><a href="#">Commercial</a></li>
-            <li><a href="#">Government</a></li>
-            <li><a href="#">Drones</a></li>
-          </ul>
-        </div>
-      </div>
-      <hr>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-sm-6 col-xs-12">
-          <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by 
-       <a href="#">BMC</a>.
-          </p>
-        </div>
-
-        <!-- <div class="col-md-4 col-sm-6 col-xs-12">
-          <ul class="social-icons">
-            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
-          </ul>
-        </div> -->
-      </div>
-    </div>
-</footer>
-<script src="assets/js/script.js"></script>
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-
-<script type="text/javascript">
-    google.charts.load('current', {'packages':['corechart']});
-    google.charts.setOnLoadCallback(drawChart);
-
-    function drawChart() {
-
-      var data = google.visualization.arrayToDataTable([
-        ['Task', 'Hours per Day'],
-        ['Work',     11],
-        ['Eat',      2],
-        ['Commute',  2],
-        ['Watch TV', 2],
-        ['Sleep',    7]
-      ]);
-
-      var options = {
-        title: 'My Daily Activities'
-      };
-
-      var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-
-      chart.draw(data, options);
-    }
-  </script>
-<!-- <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> -->
-    <script type="text/javascript">
-      google.charts.load('current', {
-        'packages':['geochart'],
-      });
-      google.charts.setOnLoadCallback(drawRegionsMap);
-
-      function drawRegionsMap() {
-        var data = google.visualization.arrayToDataTable([
-          ['Country', 'Popularity'],
-          ['Germany', 200],
-          ['United States', 300],
-          ['Brazil', 400],
-          ['Canada', 500],
-          ['France', 600],
-          ['RU', 700]
-        ]);
-
-        var options = {};
-
-        var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
-
-        chart.draw(data, options);
-      }
-
-      
-google.charts.load('current', {'packages':['corechart']});
-google.charts.setOnLoadCallback(drawChart);
-
-function drawChart() {
-  var data = google.visualization.arrayToDataTable([
-    ['Year', 'Sales', 'Expenses'],
-    ['2004',  1000,      400],
-    ['2005',  1170,      460],
-    ['2006',  660,       1120],
-    ['2007',  1030,      540]
-  ]);
-
-  var options = {
-    title: 'Company Performance',
-    curveType: 'function',
-    legend: { position: 'bottom' }
-  };
-
-  var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
-
-  chart.draw(data, options);
-}
-
-
-    </script>
 <script>
 //     	var items = document.querySelectorAll('.circle-menu-box a.menu-item');
 
